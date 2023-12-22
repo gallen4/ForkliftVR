@@ -1,0 +1,591 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor()
+extern void EmbeddedAttribute__ctor_mBB01735E786E7770A1B2ECAA65D1219B6D039DA5 (void);
+// 0x00000002 System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
+extern void IsReadOnlyAttribute__ctor_mC20B41FF7D952FD1FE27E289E221F34681837870 (void);
+// 0x00000003 System.Void UnityEngine.TerrainLayer::.ctor()
+extern void TerrainLayer__ctor_m3B6D12B4296D98B5813C08DF87D09022BD8FDC74 (void);
+// 0x00000004 System.Void UnityEngine.TerrainLayer::Internal_Create(UnityEngine.TerrainLayer)
+extern void TerrainLayer_Internal_Create_mA5EB262D9B9D9B3180705A14040FBEAA4257D3E1 (void);
+// 0x00000005 UnityEngine.TerrainData UnityEngine.Terrain::get_terrainData()
+extern void Terrain_get_terrainData_m3B6C1D89471A4E1C60FC19C168DB37A011B924FD (void);
+// 0x00000006 System.Boolean UnityEngine.Terrain::get_allowAutoConnect()
+extern void Terrain_get_allowAutoConnect_m4E9CB87D130BB118517C5504C8FB4A5CC3AA91D7 (void);
+// 0x00000007 System.Int32 UnityEngine.Terrain::get_groupingID()
+extern void Terrain_get_groupingID_mE52E78018126A5D00F837081287BE076E7709C24 (void);
+// 0x00000008 UnityEngine.RenderTexture UnityEngine.Terrain::get_normalmapTexture()
+extern void Terrain_get_normalmapTexture_m0B073CA3D5CD8E6176A8512B6B095F7BBE0D4C53 (void);
+// 0x00000009 System.Void UnityEngine.Terrain::SetNeighbors(UnityEngine.Terrain,UnityEngine.Terrain,UnityEngine.Terrain,UnityEngine.Terrain)
+extern void Terrain_SetNeighbors_m2FFA89D199120125D264EF7EE0BC749A35514C1E (void);
+// 0x0000000A UnityEngine.Vector3 UnityEngine.Terrain::GetPosition()
+extern void Terrain_GetPosition_m5A1020F22CA4B1818E69A3B9687668AFAB2C43F5 (void);
+// 0x0000000B System.Void UnityEngine.Terrain::Flush()
+extern void Terrain_Flush_m960CA9087AB6C18BE3C6B54DD993B5E728E5FA95 (void);
+// 0x0000000C UnityEngine.Terrain[] UnityEngine.Terrain::get_activeTerrains()
+extern void Terrain_get_activeTerrains_mB90A9BC89764F626D13F3EF1420EA8D3E186B701 (void);
+// 0x0000000D UnityEngine.Terrain UnityEngine.Terrain::get_leftNeighbor()
+extern void Terrain_get_leftNeighbor_mA42E758BD513BC9E0FB87888FC24B3C4349A353E (void);
+// 0x0000000E UnityEngine.Terrain UnityEngine.Terrain::get_rightNeighbor()
+extern void Terrain_get_rightNeighbor_mA50D19F61FFBA544E94733B097D4409B15FECC17 (void);
+// 0x0000000F UnityEngine.Terrain UnityEngine.Terrain::get_topNeighbor()
+extern void Terrain_get_topNeighbor_mCBC502C4CC0D617863D7A3A726EBFA4BD18BDF8C (void);
+// 0x00000010 UnityEngine.Terrain UnityEngine.Terrain::get_bottomNeighbor()
+extern void Terrain_get_bottomNeighbor_m31306E01318F62D214B5E0966C988FB24255406F (void);
+// 0x00000011 System.Void UnityEngine.Terrain::.ctor()
+extern void Terrain__ctor_m11F03EC6C1E68752DDCAE8EF2DED99CFD939FCDC (void);
+// 0x00000012 System.Void UnityEngine.Terrain::GetPosition_Injected(UnityEngine.Vector3&)
+extern void Terrain_GetPosition_Injected_m23EC0958466016EFB553CFBBE1B6E4FB076FE419 (void);
+// 0x00000013 System.Int32 UnityEngine.TerrainData::GetBoundaryValue(UnityEngine.TerrainData/BoundaryValueType)
+extern void TerrainData_GetBoundaryValue_mA9217CC15BBC958C9F7071B96CE74769EFDC322E (void);
+// 0x00000014 System.Void UnityEngine.TerrainData::.ctor()
+extern void TerrainData__ctor_m1B68EB89248D5706C2528F47279812F824E27A2E (void);
+// 0x00000015 System.Void UnityEngine.TerrainData::Internal_Create(UnityEngine.TerrainData)
+extern void TerrainData_Internal_Create_m79BF764CFF5F49D17E2BFC8B20F60B4CF70BE4E1 (void);
+// 0x00000016 UnityEngine.RenderTexture UnityEngine.TerrainData::get_heightmapTexture()
+extern void TerrainData_get_heightmapTexture_m26CB863455F0048CEA74741C71BF3021576FF8CE (void);
+// 0x00000017 System.Int32 UnityEngine.TerrainData::get_heightmapResolution()
+extern void TerrainData_get_heightmapResolution_m39FE9A5C31A80B28021F8E2484EF5F2664798836 (void);
+// 0x00000018 System.Int32 UnityEngine.TerrainData::get_internalHeightmapResolution()
+extern void TerrainData_get_internalHeightmapResolution_m83C6A32499AAAAFDD57DF73BA460CBCF02F98118 (void);
+// 0x00000019 UnityEngine.Texture UnityEngine.TerrainData::get_holesTexture()
+extern void TerrainData_get_holesTexture_m967249F842D3BFC631ED03C847C41EE4D0A56912 (void);
+// 0x0000001A System.Boolean UnityEngine.TerrainData::IsHolesTextureCompressed()
+extern void TerrainData_IsHolesTextureCompressed_mBFE653BBF59360E5382F66592EF1F3E48ED4057D (void);
+// 0x0000001B UnityEngine.RenderTexture UnityEngine.TerrainData::GetHolesTexture()
+extern void TerrainData_GetHolesTexture_mE1BC7A225983716A760BA8ACEFEC6DEFF6EA572A (void);
+// 0x0000001C UnityEngine.Texture2D UnityEngine.TerrainData::GetCompressedHolesTexture()
+extern void TerrainData_GetCompressedHolesTexture_m219472651551DC5C4613B441C27E504DA693411F (void);
+// 0x0000001D System.Int32 UnityEngine.TerrainData::get_holesResolution()
+extern void TerrainData_get_holesResolution_m9DE109FB3A0874F7F4706543D0903AFA12D1BC53 (void);
+// 0x0000001E UnityEngine.Vector3 UnityEngine.TerrainData::get_size()
+extern void TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5 (void);
+// 0x0000001F System.Int32 UnityEngine.TerrainData::get_alphamapResolution()
+extern void TerrainData_get_alphamapResolution_mC5D1C8FF4A5AFFCCFCF1382FED0D1AD46563D6F8 (void);
+// 0x00000020 System.Void UnityEngine.TerrainData::set_alphamapResolution(System.Int32)
+extern void TerrainData_set_alphamapResolution_mECF82D6CF9A3C640B18AB6DE14666BF380E03389 (void);
+// 0x00000021 System.Single UnityEngine.TerrainData::GetAlphamapResolutionInternal()
+extern void TerrainData_GetAlphamapResolutionInternal_m5C312434763B8F0BD8DE760ACF439DFEFAC2F3E5 (void);
+// 0x00000022 System.Int32 UnityEngine.TerrainData::get_Internal_alphamapResolution()
+extern void TerrainData_get_Internal_alphamapResolution_mDA8EF6055A2022B3E1E4E6ECBF8DF4387DE8A930 (void);
+// 0x00000023 System.Void UnityEngine.TerrainData::set_Internal_alphamapResolution(System.Int32)
+extern void TerrainData_set_Internal_alphamapResolution_mA33B7F95DF603037846D76F6061355DDD1C8E556 (void);
+// 0x00000024 System.Void UnityEngine.TerrainData::set_baseMapResolution(System.Int32)
+extern void TerrainData_set_baseMapResolution_mB1F3A79E687A45F695A716B8B7417B35E77C19A7 (void);
+// 0x00000025 System.Void UnityEngine.TerrainData::set_Internal_baseMapResolution(System.Int32)
+extern void TerrainData_set_Internal_baseMapResolution_mB7C108582B3A0100033DAA477D55A687405B5DD8 (void);
+// 0x00000026 System.Void UnityEngine.TerrainData::SetBaseMapDirty()
+extern void TerrainData_SetBaseMapDirty_m71323D916BC5353D2A357E91C5ECE55E65700618 (void);
+// 0x00000027 UnityEngine.Texture2D UnityEngine.TerrainData::GetAlphamapTexture(System.Int32)
+extern void TerrainData_GetAlphamapTexture_mFA6A25F6C09FE64114F69D528046E78B1581366C (void);
+// 0x00000028 System.Int32 UnityEngine.TerrainData::get_alphamapTextureCount()
+extern void TerrainData_get_alphamapTextureCount_mF378908EA58CA135A4D58D586179418F1A6F14CD (void);
+// 0x00000029 UnityEngine.Texture2D[] UnityEngine.TerrainData::get_alphamapTextures()
+extern void TerrainData_get_alphamapTextures_m82B7287C772D95D4E3D6A5793A8B9A15745D8C45 (void);
+// 0x0000002A UnityEngine.TerrainLayer[] UnityEngine.TerrainData::get_terrainLayers()
+extern void TerrainData_get_terrainLayers_m3B436DF37DDD9F18A46DD6BF112925AD5B8857C8 (void);
+// 0x0000002B System.Void UnityEngine.TerrainData::set_terrainLayers(UnityEngine.TerrainLayer[])
+extern void TerrainData_set_terrainLayers_m8FC80DAB5CD38A11CDB082F94DBD3186CD434671 (void);
+// 0x0000002C System.Void UnityEngine.TerrainData::Internal_CopyActiveRenderTextureToHoles(UnityEngine.RectInt,System.Int32,System.Int32,System.Boolean)
+extern void TerrainData_Internal_CopyActiveRenderTextureToHoles_m3181CE7CD4B40E3EB42B571E3489A2226C6E0A1A (void);
+// 0x0000002D System.Void UnityEngine.TerrainData::Internal_MarkAlphamapDirtyRegion(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+extern void TerrainData_Internal_MarkAlphamapDirtyRegion_mB212FE00063E5391813EA3C57C71AF5669F9C064 (void);
+// 0x0000002E System.Void UnityEngine.TerrainData::Internal_ClearAlphamapDirtyRegion(System.Int32)
+extern void TerrainData_Internal_ClearAlphamapDirtyRegion_m570C14031954B78348B93B24361EB0B570622588 (void);
+// 0x0000002F UnityEngine.Terrain[] UnityEngine.TerrainData::get_users()
+extern void TerrainData_get_users_m0C569F1AD5853CEBF3C572723A1CAD04AC8433C4 (void);
+// 0x00000030 System.Boolean UnityEngine.TerrainData::get_SupportsCopyTextureBetweenRTAndTexture()
+extern void TerrainData_get_SupportsCopyTextureBetweenRTAndTexture_mE93A6D23586EABCFC4B1267F66E98A8C6C7E35BE (void);
+// 0x00000031 System.String UnityEngine.TerrainData::get_AlphamapTextureName()
+extern void TerrainData_get_AlphamapTextureName_mC3E6B77E19252385A78C74D853F7CA4375A51882 (void);
+// 0x00000032 System.String UnityEngine.TerrainData::get_HolesTextureName()
+extern void TerrainData_get_HolesTextureName_m050635081E2E26FDE05BFD35253710DE84E7A12F (void);
+// 0x00000033 System.Void UnityEngine.TerrainData::CopyActiveRenderTextureToTexture(System.String,System.Int32,UnityEngine.RectInt,UnityEngine.Vector2Int,System.Boolean)
+extern void TerrainData_CopyActiveRenderTextureToTexture_mC6FBAB316DCFA11F9A51A32F2943B01B0AA79A74 (void);
+// 0x00000034 System.Void UnityEngine.TerrainData::.cctor()
+extern void TerrainData__cctor_m525F8AF6DEDDACF640BD2D24767502121ED6D9B0 (void);
+// 0x00000035 System.Void UnityEngine.TerrainData::get_size_Injected(UnityEngine.Vector3&)
+extern void TerrainData_get_size_Injected_m0F56E87C4D7EDD1D84F038E4AF0F273D328CF661 (void);
+// 0x00000036 System.Void UnityEngine.TerrainData::Internal_CopyActiveRenderTextureToHoles_Injected(UnityEngine.RectInt&,System.Int32,System.Int32,System.Boolean)
+extern void TerrainData_Internal_CopyActiveRenderTextureToHoles_Injected_m79962847A7F930086EE6436D8D0EDFABF3C3F967 (void);
+// 0x00000037 System.Void UnityEngine.TerrainCallbacks::InvokeHeightmapChangedCallback(UnityEngine.TerrainData,UnityEngine.RectInt,System.Boolean)
+extern void TerrainCallbacks_InvokeHeightmapChangedCallback_m731ED939CBD563CCCE503062602DF5908205AD04 (void);
+// 0x00000038 System.Void UnityEngine.TerrainCallbacks::InvokeTextureChangedCallback(UnityEngine.TerrainData,System.String,UnityEngine.RectInt,System.Boolean)
+extern void TerrainCallbacks_InvokeTextureChangedCallback_mB508E8B7A884854AA01AE5B88AB33E1AE40F4318 (void);
+// 0x00000039 System.Void UnityEngine.TerrainCallbacks/HeightmapChangedCallback::.ctor(System.Object,System.IntPtr)
+extern void HeightmapChangedCallback__ctor_m6A7E4189E0A7A1B70EE73818B93B0FC9F613648C (void);
+// 0x0000003A System.Void UnityEngine.TerrainCallbacks/HeightmapChangedCallback::Invoke(UnityEngine.Terrain,UnityEngine.RectInt,System.Boolean)
+extern void HeightmapChangedCallback_Invoke_m63C1C93709641DBE02DCE9F71B7895C5793AF875 (void);
+// 0x0000003B System.Void UnityEngine.TerrainCallbacks/TextureChangedCallback::.ctor(System.Object,System.IntPtr)
+extern void TextureChangedCallback__ctor_m64076D799FEB79E3D6BE2C4EB33CD081A398F0EF (void);
+// 0x0000003C System.Void UnityEngine.TerrainCallbacks/TextureChangedCallback::Invoke(UnityEngine.Terrain,System.String,UnityEngine.RectInt,System.Boolean)
+extern void TextureChangedCallback_Invoke_m1194A44102843272B51A70C302EBDBC8214647DE (void);
+// 0x0000003D System.Void UnityEngine.TerrainUtils.TerrainTileCoord::.ctor(System.Int32,System.Int32)
+extern void TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A (void);
+// 0x0000003E UnityEngine.Terrain UnityEngine.TerrainUtils.TerrainMap::GetTerrain(System.Int32,System.Int32)
+extern void TerrainMap_GetTerrain_mFF9C935F05859DF70E95994E727565BD67CDD6FC (void);
+// 0x0000003F UnityEngine.TerrainUtils.TerrainMap UnityEngine.TerrainUtils.TerrainMap::CreateFromConnectedNeighbors(UnityEngine.Terrain,System.Predicate`1<UnityEngine.Terrain>,System.Boolean)
+extern void TerrainMap_CreateFromConnectedNeighbors_m4AA17A1E61EBA1295BE150640D2D38B0E1EDD739 (void);
+// 0x00000040 UnityEngine.TerrainUtils.TerrainMap UnityEngine.TerrainUtils.TerrainMap::CreateFromPlacement(UnityEngine.Terrain,System.Predicate`1<UnityEngine.Terrain>,System.Boolean)
+extern void TerrainMap_CreateFromPlacement_mC7822A5F4FC2A2CB119259A48F19D364ACEC5AE7 (void);
+// 0x00000041 UnityEngine.TerrainUtils.TerrainMap UnityEngine.TerrainUtils.TerrainMap::CreateFromPlacement(UnityEngine.Vector2,UnityEngine.Vector2,System.Predicate`1<UnityEngine.Terrain>,System.Boolean)
+extern void TerrainMap_CreateFromPlacement_m64B90ADBC1D3A1AE18CEC7D0B452377E10B2BCB5 (void);
+// 0x00000042 System.Collections.Generic.Dictionary`2<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain> UnityEngine.TerrainUtils.TerrainMap::get_terrainTiles()
+extern void TerrainMap_get_terrainTiles_m9EAA8FCB972C834E2093DDD49B26DBBA2E74A2AB (void);
+// 0x00000043 System.Void UnityEngine.TerrainUtils.TerrainMap::.ctor()
+extern void TerrainMap__ctor_mCDB47BA50D9D54E65754028F9CF8F91828FE616F (void);
+// 0x00000044 System.Void UnityEngine.TerrainUtils.TerrainMap::AddTerrainInternal(System.Int32,System.Int32,UnityEngine.Terrain)
+extern void TerrainMap_AddTerrainInternal_m507CE3A3F880B33CA2330F69464E3511D5B9BD71 (void);
+// 0x00000045 System.Boolean UnityEngine.TerrainUtils.TerrainMap::TryToAddTerrain(System.Int32,System.Int32,UnityEngine.Terrain)
+extern void TerrainMap_TryToAddTerrain_m03A05C883F317FD2E6956ADD6625409E8A90BE15 (void);
+// 0x00000046 System.Void UnityEngine.TerrainUtils.TerrainMap::ValidateTerrain(System.Int32,System.Int32)
+extern void TerrainMap_ValidateTerrain_m8D9B035B3851E0ED8BB5877BD11F63BA85029653 (void);
+// 0x00000047 UnityEngine.TerrainUtils.TerrainMapStatusCode UnityEngine.TerrainUtils.TerrainMap::Validate()
+extern void TerrainMap_Validate_mAFBB4A2D0290E25D59902A1BD5DA1EBC2ACD1326 (void);
+// 0x00000048 System.Void UnityEngine.TerrainUtils.TerrainMap/QueueElement::.ctor(System.Int32,System.Int32,UnityEngine.Terrain)
+extern void QueueElement__ctor_m1A6C6D9526BCDA206E451B66F7AF9AFF5445F125 (void);
+// 0x00000049 System.Void UnityEngine.TerrainUtils.TerrainMap/<>c__DisplayClass3_0::.ctor()
+extern void U3CU3Ec__DisplayClass3_0__ctor_mAFD4AEF760F5CC7CE66BAD750DAD3697397E8945 (void);
+// 0x0000004A System.Boolean UnityEngine.TerrainUtils.TerrainMap/<>c__DisplayClass3_0::<CreateFromPlacement>b__0(UnityEngine.Terrain)
+extern void U3CU3Ec__DisplayClass3_0_U3CCreateFromPlacementU3Eb__0_m703A4D4E3D378C9896199B70A89FCDF1A07C737B (void);
+// 0x0000004B System.Boolean UnityEngine.TerrainUtils.TerrainUtility::ValidTerrainsExist()
+extern void TerrainUtility_ValidTerrainsExist_m0DD08E4CEC739929A9AEBCEA849EDFE79985A207 (void);
+// 0x0000004C System.Void UnityEngine.TerrainUtils.TerrainUtility::ClearConnectivity()
+extern void TerrainUtility_ClearConnectivity_m7448E42CD3F2941EF02C10DE358778EEAF9B0AA9 (void);
+// 0x0000004D System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.TerrainUtils.TerrainMap> UnityEngine.TerrainUtils.TerrainUtility::CollectTerrains(System.Boolean)
+extern void TerrainUtility_CollectTerrains_mDFCA0AFA00FFD16CEC8B4EFA9C55E3B7B6803EC4 (void);
+// 0x0000004E System.Void UnityEngine.TerrainUtils.TerrainUtility::AutoConnect()
+extern void TerrainUtility_AutoConnect_m3E435D139BE402DC495248EDD1FF2C1E9377A897 (void);
+// 0x0000004F System.Void UnityEngine.TerrainUtils.TerrainUtility/<>c__DisplayClass2_0::.ctor()
+extern void U3CU3Ec__DisplayClass2_0__ctor_m4C022C4675BA4CFC7E7AAA5692979CDE6CD8E611 (void);
+// 0x00000050 System.Void UnityEngine.TerrainUtils.TerrainUtility/<>c__DisplayClass2_1::.ctor()
+extern void U3CU3Ec__DisplayClass2_1__ctor_mA329ED5B221AE8787EAEA1124A2A95675FDD1695 (void);
+// 0x00000051 System.Boolean UnityEngine.TerrainUtils.TerrainUtility/<>c__DisplayClass2_1::<CollectTerrains>b__0(UnityEngine.Terrain)
+extern void U3CU3Ec__DisplayClass2_1_U3CCollectTerrainsU3Eb__0_m57E871EB2399E5FB7DF78B3C9EBFBF152116AC2C (void);
+// 0x00000052 UnityEngine.Terrain UnityEngine.TerrainTools.PaintContext::get_originTerrain()
+extern void PaintContext_get_originTerrain_mCD05E4154C291B8E4400902ABA56B3C017E52338 (void);
+// 0x00000053 UnityEngine.RectInt UnityEngine.TerrainTools.PaintContext::get_pixelRect()
+extern void PaintContext_get_pixelRect_m5B74BA7635A35A622595FF04BFFC1C982BCDECB3 (void);
+// 0x00000054 System.Int32 UnityEngine.TerrainTools.PaintContext::get_targetTextureWidth()
+extern void PaintContext_get_targetTextureWidth_m6ECD3E0E648DBB6632C633E06B5D6037A0B2CFEB (void);
+// 0x00000055 System.Int32 UnityEngine.TerrainTools.PaintContext::get_targetTextureHeight()
+extern void PaintContext_get_targetTextureHeight_m4975CA86AC71297D69844835B8D006174F806240 (void);
+// 0x00000056 UnityEngine.Vector2 UnityEngine.TerrainTools.PaintContext::get_pixelSize()
+extern void PaintContext_get_pixelSize_m625AE2931B8FBA55050107943314D6202DD930C5 (void);
+// 0x00000057 UnityEngine.RenderTexture UnityEngine.TerrainTools.PaintContext::get_sourceRenderTexture()
+extern void PaintContext_get_sourceRenderTexture_m45B68671807EA82C3333635B0C5BB8F5D5161B86 (void);
+// 0x00000058 System.Void UnityEngine.TerrainTools.PaintContext::set_sourceRenderTexture(UnityEngine.RenderTexture)
+extern void PaintContext_set_sourceRenderTexture_m729A4274969D259E689DA526313697ACA2299CD6 (void);
+// 0x00000059 UnityEngine.RenderTexture UnityEngine.TerrainTools.PaintContext::get_destinationRenderTexture()
+extern void PaintContext_get_destinationRenderTexture_m5E3BA23300AA39CB2A260F795561FD707DB91E92 (void);
+// 0x0000005A System.Void UnityEngine.TerrainTools.PaintContext::set_destinationRenderTexture(UnityEngine.RenderTexture)
+extern void PaintContext_set_destinationRenderTexture_mE0DC8FD99A811C95223A9F7F0082D139EE3CF4CC (void);
+// 0x0000005B UnityEngine.RenderTexture UnityEngine.TerrainTools.PaintContext::get_oldRenderTexture()
+extern void PaintContext_get_oldRenderTexture_mBE3586662ED5A1DA7AB82FC7FB01D674095E48EA (void);
+// 0x0000005C System.Void UnityEngine.TerrainTools.PaintContext::set_oldRenderTexture(UnityEngine.RenderTexture)
+extern void PaintContext_set_oldRenderTexture_m911313349E453DD49EC9DB4606E9A4E5C86BC043 (void);
+// 0x0000005D System.Int32 UnityEngine.TerrainTools.PaintContext::ClampContextResolution(System.Int32)
+extern void PaintContext_ClampContextResolution_m90A8DECD94A9CBDA1BA2ABB4AF30B2D4A3C241B6 (void);
+// 0x0000005E System.Void UnityEngine.TerrainTools.PaintContext::.ctor(UnityEngine.Terrain,UnityEngine.RectInt,System.Int32,System.Int32,System.Boolean,System.Boolean)
+extern void PaintContext__ctor_m5F36E6944154C93E1D271D4A9C077C8DAB108F86 (void);
+// 0x0000005F UnityEngine.TerrainTools.PaintContext UnityEngine.TerrainTools.PaintContext::CreateFromBounds(UnityEngine.Terrain,UnityEngine.Rect,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)
+extern void PaintContext_CreateFromBounds_mE034417CBA9CD6F83EAB77DA319323F458CD04E4 (void);
+// 0x00000060 System.Void UnityEngine.TerrainTools.PaintContext::FindTerrainTilesUnlimited(System.Boolean,System.Boolean)
+extern void PaintContext_FindTerrainTilesUnlimited_mC85574536AE3A36A4A9399DAC6F8C5171FAE1433 (void);
+// 0x00000061 System.Void UnityEngine.TerrainTools.PaintContext::CreateRenderTargets(UnityEngine.RenderTextureFormat)
+extern void PaintContext_CreateRenderTargets_m08252C94D832923CD0F129B6EEA1305DEAF18BB5 (void);
+// 0x00000062 System.Void UnityEngine.TerrainTools.PaintContext::Cleanup(System.Boolean)
+extern void PaintContext_Cleanup_mEB09BBB29CF7FBC5E11FC63BB2A3D651B27EB28A (void);
+// 0x00000063 System.Void UnityEngine.TerrainTools.PaintContext::GatherInternal(System.Func`2<UnityEngine.TerrainTools.PaintContext/ITerrainInfo,UnityEngine.Texture>,UnityEngine.Color,System.String,UnityEngine.Material,System.Int32,System.Action`1<UnityEngine.TerrainTools.PaintContext/ITerrainInfo>,System.Action`1<UnityEngine.TerrainTools.PaintContext/ITerrainInfo>)
+extern void PaintContext_GatherInternal_mB58AFCC343495B1A7E2D742CFD75F337A6FE781D (void);
+// 0x00000064 System.Void UnityEngine.TerrainTools.PaintContext::ScatterInternal(System.Func`2<UnityEngine.TerrainTools.PaintContext/ITerrainInfo,UnityEngine.RenderTexture>,System.String,UnityEngine.Material,System.Int32,System.Action`1<UnityEngine.TerrainTools.PaintContext/ITerrainInfo>,System.Action`1<UnityEngine.TerrainTools.PaintContext/ITerrainInfo>)
+extern void PaintContext_ScatterInternal_m18C7B496911CC4C7C95E40A6220B1ACCE8427149 (void);
+// 0x00000065 UnityEngine.TerrainTools.PaintContext/SplatmapUserData UnityEngine.TerrainTools.PaintContext::GetTerrainLayerUserData(UnityEngine.TerrainTools.PaintContext/ITerrainInfo,UnityEngine.TerrainLayer,System.Boolean)
+extern void PaintContext_GetTerrainLayerUserData_m2816B0CA7CA72A0492887923DE89F9382877E632 (void);
+// 0x00000066 System.Void UnityEngine.TerrainTools.PaintContext::GatherAlphamap(UnityEngine.TerrainLayer,System.Boolean)
+extern void PaintContext_GatherAlphamap_m9CF436C1D0D163692E9EDF27958A1704D06E3F44 (void);
+// 0x00000067 System.Void UnityEngine.TerrainTools.PaintContext::ScatterAlphamap(System.String)
+extern void PaintContext_ScatterAlphamap_m207A3E71E8014A4639C37905471D1F9C85404C91 (void);
+// 0x00000068 System.Void UnityEngine.TerrainTools.PaintContext::OnTerrainPainted(UnityEngine.TerrainTools.PaintContext/ITerrainInfo,UnityEngine.TerrainTools.PaintContext/ToolAction)
+extern void PaintContext_OnTerrainPainted_mA6BF9D65B8EA95D18E69FBC02D538588DEF3385E (void);
+// 0x00000069 System.Void UnityEngine.TerrainTools.PaintContext::.cctor()
+extern void PaintContext__cctor_m381829AD174E3AB512452C6158E625AC70AEF66B (void);
+// 0x0000006A UnityEngine.Terrain UnityEngine.TerrainTools.PaintContext/ITerrainInfo::get_terrain()
+// 0x0000006B UnityEngine.RectInt UnityEngine.TerrainTools.PaintContext/ITerrainInfo::get_clippedTerrainPixels()
+// 0x0000006C UnityEngine.RectInt UnityEngine.TerrainTools.PaintContext/ITerrainInfo::get_clippedPCPixels()
+// 0x0000006D System.Object UnityEngine.TerrainTools.PaintContext/ITerrainInfo::get_userData()
+// 0x0000006E System.Void UnityEngine.TerrainTools.PaintContext/ITerrainInfo::set_userData(System.Object)
+// 0x0000006F UnityEngine.Terrain UnityEngine.TerrainTools.PaintContext/TerrainTile::UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_terrain()
+extern void TerrainTile_UnityEngine_TerrainTools_PaintContext_ITerrainInfo_get_terrain_m2B00DE94A36AD70ED919E482E7B45A88C6524D27 (void);
+// 0x00000070 UnityEngine.RectInt UnityEngine.TerrainTools.PaintContext/TerrainTile::UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_clippedTerrainPixels()
+extern void TerrainTile_UnityEngine_TerrainTools_PaintContext_ITerrainInfo_get_clippedTerrainPixels_mF4756DB3495110649E77905E24EDADBF345CBE02 (void);
+// 0x00000071 UnityEngine.RectInt UnityEngine.TerrainTools.PaintContext/TerrainTile::UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_clippedPCPixels()
+extern void TerrainTile_UnityEngine_TerrainTools_PaintContext_ITerrainInfo_get_clippedPCPixels_m58D39841BC4DDD19502995895D3BC6990618798F (void);
+// 0x00000072 System.Object UnityEngine.TerrainTools.PaintContext/TerrainTile::UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_userData()
+extern void TerrainTile_UnityEngine_TerrainTools_PaintContext_ITerrainInfo_get_userData_m8A130E699EDBE85C316C4DE83C1E3429D117F0DD (void);
+// 0x00000073 System.Void UnityEngine.TerrainTools.PaintContext/TerrainTile::UnityEngine.TerrainTools.PaintContext.ITerrainInfo.set_userData(System.Object)
+extern void TerrainTile_UnityEngine_TerrainTools_PaintContext_ITerrainInfo_set_userData_m0118BB95E521E20483826CC9D336DA2D74715A8B (void);
+// 0x00000074 UnityEngine.TerrainTools.PaintContext/TerrainTile UnityEngine.TerrainTools.PaintContext/TerrainTile::Make(UnityEngine.Terrain,System.Int32,System.Int32,UnityEngine.RectInt,System.Int32,System.Int32,System.Int32)
+extern void TerrainTile_Make_m464414DF78B623306730F00C6DDE305D9A46AEFD (void);
+// 0x00000075 System.Void UnityEngine.TerrainTools.PaintContext/TerrainTile::.ctor()
+extern void TerrainTile__ctor_mCDA7097EEEC5D66D7E2E2A1AD7778F783EB20F8C (void);
+// 0x00000076 System.Void UnityEngine.TerrainTools.PaintContext/SplatmapUserData::.ctor()
+extern void SplatmapUserData__ctor_m8B0FF764C4FB0A470238FF13FBDAD970DEDCD713 (void);
+// 0x00000077 System.Void UnityEngine.TerrainTools.PaintContext/<>c__DisplayClass53_0::.ctor()
+extern void U3CU3Ec__DisplayClass53_0__ctor_mB1DCC08BEBB1B500CAD7277614120E2743B5853E (void);
+// 0x00000078 System.Boolean UnityEngine.TerrainTools.PaintContext/<>c__DisplayClass53_0::<FindTerrainTilesUnlimited>b__0(UnityEngine.Terrain)
+extern void U3CU3Ec__DisplayClass53_0_U3CFindTerrainTilesUnlimitedU3Eb__0_mA575AAFB77E11432AD4789A5E4DB47EE29ABA676 (void);
+// 0x00000079 System.Void UnityEngine.TerrainTools.PaintContext/<>c__DisplayClass66_0::.ctor()
+extern void U3CU3Ec__DisplayClass66_0__ctor_m7546F25D02A8C4AE3CA8A1966E400F3C3DCC3FF3 (void);
+// 0x0000007A UnityEngine.Texture UnityEngine.TerrainTools.PaintContext/<>c__DisplayClass66_0::<GatherAlphamap>b__0(UnityEngine.TerrainTools.PaintContext/ITerrainInfo)
+extern void U3CU3Ec__DisplayClass66_0_U3CGatherAlphamapU3Eb__0_m267E46A16FA8D4413C38D05DB8E68C242563046F (void);
+// 0x0000007B System.Void UnityEngine.TerrainTools.PaintContext/<>c__DisplayClass66_0::<GatherAlphamap>b__1(UnityEngine.TerrainTools.PaintContext/ITerrainInfo)
+extern void U3CU3Ec__DisplayClass66_0_U3CGatherAlphamapU3Eb__1_mC736CCFD74BEA0444925BA18C5D877590161F531 (void);
+// 0x0000007C System.Void UnityEngine.TerrainTools.PaintContext/<>c__DisplayClass67_0::.ctor()
+extern void U3CU3Ec__DisplayClass67_0__ctor_mF166EB7437F0888686AA463B2ED545AB463B15E6 (void);
+// 0x0000007D UnityEngine.RenderTexture UnityEngine.TerrainTools.PaintContext/<>c__DisplayClass67_0::<ScatterAlphamap>b__0(UnityEngine.TerrainTools.PaintContext/ITerrainInfo)
+extern void U3CU3Ec__DisplayClass67_0_U3CScatterAlphamapU3Eb__0_m9ABB337FFDEF8CA150010C341050F1ACE434ED78 (void);
+// 0x0000007E UnityEngine.TerrainTools.PaintContext UnityEngine.TerrainTools.TerrainPaintUtility::InitializePaintContext(UnityEngine.Terrain,System.Int32,System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.Rect,System.Int32,System.Boolean,System.Boolean)
+extern void TerrainPaintUtility_InitializePaintContext_m4AF5ECCA84C9B1B010244E35544C4E3B41F97F70 (void);
+// 0x0000007F UnityEngine.TerrainTools.PaintContext UnityEngine.TerrainTools.TerrainPaintUtility::BeginPaintTexture(UnityEngine.Terrain,UnityEngine.Rect,UnityEngine.TerrainLayer,System.Int32,System.Boolean)
+extern void TerrainPaintUtility_BeginPaintTexture_m0BBFA0F86453D0363334C3E960CF7AB9AF40EA4C (void);
+// 0x00000080 System.Void UnityEngine.TerrainTools.TerrainPaintUtility::EndPaintTexture(UnityEngine.TerrainTools.PaintContext,System.String)
+extern void TerrainPaintUtility_EndPaintTexture_m06D132134AC924F27FA3F5598E3C9F91CFC1A936 (void);
+// 0x00000081 UnityEngine.Material UnityEngine.TerrainTools.TerrainPaintUtility::GetBlitMaterial()
+extern void TerrainPaintUtility_GetBlitMaterial_mE30CA5859A38CD72365ADAAF487060AA531FB583 (void);
+// 0x00000082 UnityEngine.Material UnityEngine.TerrainTools.TerrainPaintUtility::GetCopyTerrainLayerMaterial()
+extern void TerrainPaintUtility_GetCopyTerrainLayerMaterial_m4AE79A9122DBF2DF8A4932CBA9E2D7347CDACDA6 (void);
+// 0x00000083 System.Void UnityEngine.TerrainTools.TerrainPaintUtility::DrawQuad(UnityEngine.RectInt,UnityEngine.RectInt,UnityEngine.Texture)
+extern void TerrainPaintUtility_DrawQuad_m3DF46A679C95B544FD1CA783020DFDFDA084728B (void);
+// 0x00000084 System.Void UnityEngine.TerrainTools.TerrainPaintUtility::DrawQuad2(UnityEngine.RectInt,UnityEngine.RectInt,UnityEngine.Texture,UnityEngine.RectInt,UnityEngine.Texture)
+extern void TerrainPaintUtility_DrawQuad2_m70891EE13A543416FBBDF98FEEC6499A2B38494A (void);
+// 0x00000085 System.Void UnityEngine.TerrainTools.TerrainPaintUtility::DrawQuadPadded(UnityEngine.RectInt,UnityEngine.RectInt,UnityEngine.RectInt,UnityEngine.RectInt,UnityEngine.Texture)
+extern void TerrainPaintUtility_DrawQuadPadded_m48168E3A5DF4E5063D290556E06E8FF75EDD1552 (void);
+// 0x00000086 UnityEngine.RectInt UnityEngine.TerrainTools.TerrainPaintUtility::CalcPixelRectFromBounds(UnityEngine.Terrain,UnityEngine.Rect,System.Int32,System.Int32,System.Int32,System.Boolean)
+extern void TerrainPaintUtility_CalcPixelRectFromBounds_mA0F27994D74342C8EECA59B32E3B24CEF52D3334 (void);
+// 0x00000087 UnityEngine.Texture2D UnityEngine.TerrainTools.TerrainPaintUtility::GetTerrainAlphaMapChecked(UnityEngine.Terrain,System.Int32)
+extern void TerrainPaintUtility_GetTerrainAlphaMapChecked_m61B8DC77E576C67F4A93CA116608ABC0786E4A92 (void);
+// 0x00000088 System.Int32 UnityEngine.TerrainTools.TerrainPaintUtility::FindTerrainLayerIndex(UnityEngine.Terrain,UnityEngine.TerrainLayer)
+extern void TerrainPaintUtility_FindTerrainLayerIndex_mF21091EAB56A8C467F80D187A800D1288FDB135A (void);
+// 0x00000089 System.Int32 UnityEngine.TerrainTools.TerrainPaintUtility::AddTerrainLayer(UnityEngine.Terrain,UnityEngine.TerrainLayer)
+extern void TerrainPaintUtility_AddTerrainLayer_mF5232126EC2C8B14BBC0ACDA0AD60652002DEC0A (void);
+static Il2CppMethodPointer s_methodPointers[137] = 
+{
+	EmbeddedAttribute__ctor_mBB01735E786E7770A1B2ECAA65D1219B6D039DA5,
+	IsReadOnlyAttribute__ctor_mC20B41FF7D952FD1FE27E289E221F34681837870,
+	TerrainLayer__ctor_m3B6D12B4296D98B5813C08DF87D09022BD8FDC74,
+	TerrainLayer_Internal_Create_mA5EB262D9B9D9B3180705A14040FBEAA4257D3E1,
+	Terrain_get_terrainData_m3B6C1D89471A4E1C60FC19C168DB37A011B924FD,
+	Terrain_get_allowAutoConnect_m4E9CB87D130BB118517C5504C8FB4A5CC3AA91D7,
+	Terrain_get_groupingID_mE52E78018126A5D00F837081287BE076E7709C24,
+	Terrain_get_normalmapTexture_m0B073CA3D5CD8E6176A8512B6B095F7BBE0D4C53,
+	Terrain_SetNeighbors_m2FFA89D199120125D264EF7EE0BC749A35514C1E,
+	Terrain_GetPosition_m5A1020F22CA4B1818E69A3B9687668AFAB2C43F5,
+	Terrain_Flush_m960CA9087AB6C18BE3C6B54DD993B5E728E5FA95,
+	Terrain_get_activeTerrains_mB90A9BC89764F626D13F3EF1420EA8D3E186B701,
+	Terrain_get_leftNeighbor_mA42E758BD513BC9E0FB87888FC24B3C4349A353E,
+	Terrain_get_rightNeighbor_mA50D19F61FFBA544E94733B097D4409B15FECC17,
+	Terrain_get_topNeighbor_mCBC502C4CC0D617863D7A3A726EBFA4BD18BDF8C,
+	Terrain_get_bottomNeighbor_m31306E01318F62D214B5E0966C988FB24255406F,
+	Terrain__ctor_m11F03EC6C1E68752DDCAE8EF2DED99CFD939FCDC,
+	Terrain_GetPosition_Injected_m23EC0958466016EFB553CFBBE1B6E4FB076FE419,
+	TerrainData_GetBoundaryValue_mA9217CC15BBC958C9F7071B96CE74769EFDC322E,
+	TerrainData__ctor_m1B68EB89248D5706C2528F47279812F824E27A2E,
+	TerrainData_Internal_Create_m79BF764CFF5F49D17E2BFC8B20F60B4CF70BE4E1,
+	TerrainData_get_heightmapTexture_m26CB863455F0048CEA74741C71BF3021576FF8CE,
+	TerrainData_get_heightmapResolution_m39FE9A5C31A80B28021F8E2484EF5F2664798836,
+	TerrainData_get_internalHeightmapResolution_m83C6A32499AAAAFDD57DF73BA460CBCF02F98118,
+	TerrainData_get_holesTexture_m967249F842D3BFC631ED03C847C41EE4D0A56912,
+	TerrainData_IsHolesTextureCompressed_mBFE653BBF59360E5382F66592EF1F3E48ED4057D,
+	TerrainData_GetHolesTexture_mE1BC7A225983716A760BA8ACEFEC6DEFF6EA572A,
+	TerrainData_GetCompressedHolesTexture_m219472651551DC5C4613B441C27E504DA693411F,
+	TerrainData_get_holesResolution_m9DE109FB3A0874F7F4706543D0903AFA12D1BC53,
+	TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5,
+	TerrainData_get_alphamapResolution_mC5D1C8FF4A5AFFCCFCF1382FED0D1AD46563D6F8,
+	TerrainData_set_alphamapResolution_mECF82D6CF9A3C640B18AB6DE14666BF380E03389,
+	TerrainData_GetAlphamapResolutionInternal_m5C312434763B8F0BD8DE760ACF439DFEFAC2F3E5,
+	TerrainData_get_Internal_alphamapResolution_mDA8EF6055A2022B3E1E4E6ECBF8DF4387DE8A930,
+	TerrainData_set_Internal_alphamapResolution_mA33B7F95DF603037846D76F6061355DDD1C8E556,
+	TerrainData_set_baseMapResolution_mB1F3A79E687A45F695A716B8B7417B35E77C19A7,
+	TerrainData_set_Internal_baseMapResolution_mB7C108582B3A0100033DAA477D55A687405B5DD8,
+	TerrainData_SetBaseMapDirty_m71323D916BC5353D2A357E91C5ECE55E65700618,
+	TerrainData_GetAlphamapTexture_mFA6A25F6C09FE64114F69D528046E78B1581366C,
+	TerrainData_get_alphamapTextureCount_mF378908EA58CA135A4D58D586179418F1A6F14CD,
+	TerrainData_get_alphamapTextures_m82B7287C772D95D4E3D6A5793A8B9A15745D8C45,
+	TerrainData_get_terrainLayers_m3B436DF37DDD9F18A46DD6BF112925AD5B8857C8,
+	TerrainData_set_terrainLayers_m8FC80DAB5CD38A11CDB082F94DBD3186CD434671,
+	TerrainData_Internal_CopyActiveRenderTextureToHoles_m3181CE7CD4B40E3EB42B571E3489A2226C6E0A1A,
+	TerrainData_Internal_MarkAlphamapDirtyRegion_mB212FE00063E5391813EA3C57C71AF5669F9C064,
+	TerrainData_Internal_ClearAlphamapDirtyRegion_m570C14031954B78348B93B24361EB0B570622588,
+	TerrainData_get_users_m0C569F1AD5853CEBF3C572723A1CAD04AC8433C4,
+	TerrainData_get_SupportsCopyTextureBetweenRTAndTexture_mE93A6D23586EABCFC4B1267F66E98A8C6C7E35BE,
+	TerrainData_get_AlphamapTextureName_mC3E6B77E19252385A78C74D853F7CA4375A51882,
+	TerrainData_get_HolesTextureName_m050635081E2E26FDE05BFD35253710DE84E7A12F,
+	TerrainData_CopyActiveRenderTextureToTexture_mC6FBAB316DCFA11F9A51A32F2943B01B0AA79A74,
+	TerrainData__cctor_m525F8AF6DEDDACF640BD2D24767502121ED6D9B0,
+	TerrainData_get_size_Injected_m0F56E87C4D7EDD1D84F038E4AF0F273D328CF661,
+	TerrainData_Internal_CopyActiveRenderTextureToHoles_Injected_m79962847A7F930086EE6436D8D0EDFABF3C3F967,
+	TerrainCallbacks_InvokeHeightmapChangedCallback_m731ED939CBD563CCCE503062602DF5908205AD04,
+	TerrainCallbacks_InvokeTextureChangedCallback_mB508E8B7A884854AA01AE5B88AB33E1AE40F4318,
+	HeightmapChangedCallback__ctor_m6A7E4189E0A7A1B70EE73818B93B0FC9F613648C,
+	HeightmapChangedCallback_Invoke_m63C1C93709641DBE02DCE9F71B7895C5793AF875,
+	TextureChangedCallback__ctor_m64076D799FEB79E3D6BE2C4EB33CD081A398F0EF,
+	TextureChangedCallback_Invoke_m1194A44102843272B51A70C302EBDBC8214647DE,
+	TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A,
+	TerrainMap_GetTerrain_mFF9C935F05859DF70E95994E727565BD67CDD6FC,
+	TerrainMap_CreateFromConnectedNeighbors_m4AA17A1E61EBA1295BE150640D2D38B0E1EDD739,
+	TerrainMap_CreateFromPlacement_mC7822A5F4FC2A2CB119259A48F19D364ACEC5AE7,
+	TerrainMap_CreateFromPlacement_m64B90ADBC1D3A1AE18CEC7D0B452377E10B2BCB5,
+	TerrainMap_get_terrainTiles_m9EAA8FCB972C834E2093DDD49B26DBBA2E74A2AB,
+	TerrainMap__ctor_mCDB47BA50D9D54E65754028F9CF8F91828FE616F,
+	TerrainMap_AddTerrainInternal_m507CE3A3F880B33CA2330F69464E3511D5B9BD71,
+	TerrainMap_TryToAddTerrain_m03A05C883F317FD2E6956ADD6625409E8A90BE15,
+	TerrainMap_ValidateTerrain_m8D9B035B3851E0ED8BB5877BD11F63BA85029653,
+	TerrainMap_Validate_mAFBB4A2D0290E25D59902A1BD5DA1EBC2ACD1326,
+	QueueElement__ctor_m1A6C6D9526BCDA206E451B66F7AF9AFF5445F125,
+	U3CU3Ec__DisplayClass3_0__ctor_mAFD4AEF760F5CC7CE66BAD750DAD3697397E8945,
+	U3CU3Ec__DisplayClass3_0_U3CCreateFromPlacementU3Eb__0_m703A4D4E3D378C9896199B70A89FCDF1A07C737B,
+	TerrainUtility_ValidTerrainsExist_m0DD08E4CEC739929A9AEBCEA849EDFE79985A207,
+	TerrainUtility_ClearConnectivity_m7448E42CD3F2941EF02C10DE358778EEAF9B0AA9,
+	TerrainUtility_CollectTerrains_mDFCA0AFA00FFD16CEC8B4EFA9C55E3B7B6803EC4,
+	TerrainUtility_AutoConnect_m3E435D139BE402DC495248EDD1FF2C1E9377A897,
+	U3CU3Ec__DisplayClass2_0__ctor_m4C022C4675BA4CFC7E7AAA5692979CDE6CD8E611,
+	U3CU3Ec__DisplayClass2_1__ctor_mA329ED5B221AE8787EAEA1124A2A95675FDD1695,
+	U3CU3Ec__DisplayClass2_1_U3CCollectTerrainsU3Eb__0_m57E871EB2399E5FB7DF78B3C9EBFBF152116AC2C,
+	PaintContext_get_originTerrain_mCD05E4154C291B8E4400902ABA56B3C017E52338,
+	PaintContext_get_pixelRect_m5B74BA7635A35A622595FF04BFFC1C982BCDECB3,
+	PaintContext_get_targetTextureWidth_m6ECD3E0E648DBB6632C633E06B5D6037A0B2CFEB,
+	PaintContext_get_targetTextureHeight_m4975CA86AC71297D69844835B8D006174F806240,
+	PaintContext_get_pixelSize_m625AE2931B8FBA55050107943314D6202DD930C5,
+	PaintContext_get_sourceRenderTexture_m45B68671807EA82C3333635B0C5BB8F5D5161B86,
+	PaintContext_set_sourceRenderTexture_m729A4274969D259E689DA526313697ACA2299CD6,
+	PaintContext_get_destinationRenderTexture_m5E3BA23300AA39CB2A260F795561FD707DB91E92,
+	PaintContext_set_destinationRenderTexture_mE0DC8FD99A811C95223A9F7F0082D139EE3CF4CC,
+	PaintContext_get_oldRenderTexture_mBE3586662ED5A1DA7AB82FC7FB01D674095E48EA,
+	PaintContext_set_oldRenderTexture_m911313349E453DD49EC9DB4606E9A4E5C86BC043,
+	PaintContext_ClampContextResolution_m90A8DECD94A9CBDA1BA2ABB4AF30B2D4A3C241B6,
+	PaintContext__ctor_m5F36E6944154C93E1D271D4A9C077C8DAB108F86,
+	PaintContext_CreateFromBounds_mE034417CBA9CD6F83EAB77DA319323F458CD04E4,
+	PaintContext_FindTerrainTilesUnlimited_mC85574536AE3A36A4A9399DAC6F8C5171FAE1433,
+	PaintContext_CreateRenderTargets_m08252C94D832923CD0F129B6EEA1305DEAF18BB5,
+	PaintContext_Cleanup_mEB09BBB29CF7FBC5E11FC63BB2A3D651B27EB28A,
+	PaintContext_GatherInternal_mB58AFCC343495B1A7E2D742CFD75F337A6FE781D,
+	PaintContext_ScatterInternal_m18C7B496911CC4C7C95E40A6220B1ACCE8427149,
+	PaintContext_GetTerrainLayerUserData_m2816B0CA7CA72A0492887923DE89F9382877E632,
+	PaintContext_GatherAlphamap_m9CF436C1D0D163692E9EDF27958A1704D06E3F44,
+	PaintContext_ScatterAlphamap_m207A3E71E8014A4639C37905471D1F9C85404C91,
+	PaintContext_OnTerrainPainted_mA6BF9D65B8EA95D18E69FBC02D538588DEF3385E,
+	PaintContext__cctor_m381829AD174E3AB512452C6158E625AC70AEF66B,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	TerrainTile_UnityEngine_TerrainTools_PaintContext_ITerrainInfo_get_terrain_m2B00DE94A36AD70ED919E482E7B45A88C6524D27,
+	TerrainTile_UnityEngine_TerrainTools_PaintContext_ITerrainInfo_get_clippedTerrainPixels_mF4756DB3495110649E77905E24EDADBF345CBE02,
+	TerrainTile_UnityEngine_TerrainTools_PaintContext_ITerrainInfo_get_clippedPCPixels_m58D39841BC4DDD19502995895D3BC6990618798F,
+	TerrainTile_UnityEngine_TerrainTools_PaintContext_ITerrainInfo_get_userData_m8A130E699EDBE85C316C4DE83C1E3429D117F0DD,
+	TerrainTile_UnityEngine_TerrainTools_PaintContext_ITerrainInfo_set_userData_m0118BB95E521E20483826CC9D336DA2D74715A8B,
+	TerrainTile_Make_m464414DF78B623306730F00C6DDE305D9A46AEFD,
+	TerrainTile__ctor_mCDA7097EEEC5D66D7E2E2A1AD7778F783EB20F8C,
+	SplatmapUserData__ctor_m8B0FF764C4FB0A470238FF13FBDAD970DEDCD713,
+	U3CU3Ec__DisplayClass53_0__ctor_mB1DCC08BEBB1B500CAD7277614120E2743B5853E,
+	U3CU3Ec__DisplayClass53_0_U3CFindTerrainTilesUnlimitedU3Eb__0_mA575AAFB77E11432AD4789A5E4DB47EE29ABA676,
+	U3CU3Ec__DisplayClass66_0__ctor_m7546F25D02A8C4AE3CA8A1966E400F3C3DCC3FF3,
+	U3CU3Ec__DisplayClass66_0_U3CGatherAlphamapU3Eb__0_m267E46A16FA8D4413C38D05DB8E68C242563046F,
+	U3CU3Ec__DisplayClass66_0_U3CGatherAlphamapU3Eb__1_mC736CCFD74BEA0444925BA18C5D877590161F531,
+	U3CU3Ec__DisplayClass67_0__ctor_mF166EB7437F0888686AA463B2ED545AB463B15E6,
+	U3CU3Ec__DisplayClass67_0_U3CScatterAlphamapU3Eb__0_m9ABB337FFDEF8CA150010C341050F1ACE434ED78,
+	TerrainPaintUtility_InitializePaintContext_m4AF5ECCA84C9B1B010244E35544C4E3B41F97F70,
+	TerrainPaintUtility_BeginPaintTexture_m0BBFA0F86453D0363334C3E960CF7AB9AF40EA4C,
+	TerrainPaintUtility_EndPaintTexture_m06D132134AC924F27FA3F5598E3C9F91CFC1A936,
+	TerrainPaintUtility_GetBlitMaterial_mE30CA5859A38CD72365ADAAF487060AA531FB583,
+	TerrainPaintUtility_GetCopyTerrainLayerMaterial_m4AE79A9122DBF2DF8A4932CBA9E2D7347CDACDA6,
+	TerrainPaintUtility_DrawQuad_m3DF46A679C95B544FD1CA783020DFDFDA084728B,
+	TerrainPaintUtility_DrawQuad2_m70891EE13A543416FBBDF98FEEC6499A2B38494A,
+	TerrainPaintUtility_DrawQuadPadded_m48168E3A5DF4E5063D290556E06E8FF75EDD1552,
+	TerrainPaintUtility_CalcPixelRectFromBounds_mA0F27994D74342C8EECA59B32E3B24CEF52D3334,
+	TerrainPaintUtility_GetTerrainAlphaMapChecked_m61B8DC77E576C67F4A93CA116608ABC0786E4A92,
+	TerrainPaintUtility_FindTerrainLayerIndex_mF21091EAB56A8C467F80D187A800D1288FDB135A,
+	TerrainPaintUtility_AddTerrainLayer_mF5232126EC2C8B14BBC0ACDA0AD60652002DEC0A,
+};
+extern void TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A_AdjustorThunk (void);
+extern void QueueElement__ctor_m1A6C6D9526BCDA206E451B66F7AF9AFF5445F125_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
+{
+	{ 0x0600003D, TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A_AdjustorThunk },
+	{ 0x06000048, QueueElement__ctor_m1A6C6D9526BCDA206E451B66F7AF9AFF5445F125_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[137] = 
+{
+	5482,
+	5482,
+	5482,
+	8221,
+	5362,
+	5269,
+	5333,
+	5362,
+	846,
+	5474,
+	5482,
+	8349,
+	5362,
+	5362,
+	5362,
+	5362,
+	5482,
+	4206,
+	7922,
+	5482,
+	8221,
+	5362,
+	5333,
+	5333,
+	5362,
+	5269,
+	5362,
+	5362,
+	5333,
+	5474,
+	5333,
+	4283,
+	5416,
+	5333,
+	4283,
+	4283,
+	4283,
+	5482,
+	3791,
+	5333,
+	5362,
+	5362,
+	4309,
+	863,
+	377,
+	4283,
+	5362,
+	8319,
+	8349,
+	8349,
+	395,
+	8389,
+	4206,
+	741,
+	7067,
+	6566,
+	2348,
+	1219,
+	2348,
+	848,
+	2114,
+	1780,
+	6841,
+	6841,
+	6452,
+	5362,
+	5482,
+	1153,
+	906,
+	2114,
+	5333,
+	1153,
+	5482,
+	3005,
+	8319,
+	8389,
+	8012,
+	8389,
+	5482,
+	5482,
+	3005,
+	5362,
+	5395,
+	5333,
+	5333,
+	5472,
+	5362,
+	4309,
+	5362,
+	4309,
+	5362,
+	4309,
+	7922,
+	213,
+	5745,
+	1885,
+	4283,
+	4217,
+	113,
+	206,
+	1034,
+	2336,
+	4309,
+	7656,
+	8389,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5362,
+	5395,
+	5395,
+	5362,
+	4309,
+	5741,
+	5482,
+	5482,
+	5482,
+	3005,
+	5482,
+	3797,
+	4309,
+	5482,
+	3797,
+	5695,
+	6050,
+	7661,
+	8349,
+	8349,
+	7082,
+	6161,
+	6162,
+	5817,
+	7435,
+	7362,
+	7362,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule = 
+{
+	"UnityEngine.TerrainModule.dll",
+	137,
+	s_methodPointers,
+	2,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
