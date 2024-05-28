@@ -18,6 +18,6 @@
 
 **Смородников Дмитрий Евгеньевич**:
 
-- Почта: alexanderpyaskovsky@yandex.ru 
+- Почта: dima.smorodnikov.107@gmail.com
 - Телеграмм: @dmitry_smor
 
