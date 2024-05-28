@@ -5,10 +5,12 @@
 </div>
 
 ***
+<div aling="center">
 # Другие языки
 - [Русский](README.md)
 - [Английский](READMEENGLISH.md)
 ***
+</div>
 
 ***
 <div align="center">
