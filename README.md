@@ -14,7 +14,7 @@
 <div align="center">
 <b> Цель проекта
 </div>
-***
+
 
 
 
