@@ -46,7 +46,7 @@
 
 # Демонстрационное видео работы
 <a href="https://www.youtube.com/watch?v=nDv5xbuym8U">
-  <img src="images/cat.jpg" width="600" height="200" width="600">
+  <img src="https://i3.ytimg.com/vi/nDv5xbuym8U/maxresdefault.jpg" width="600" height="200" width="600">
 </a>
 
 ***
