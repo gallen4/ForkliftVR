@@ -39,5 +39,4 @@
 - Почта: dima.smorodnikov.107@gmail.com
 - Телеграмм: @dmitry_smor
 ***
-- Телеграмм: @dmitry_smor
 
