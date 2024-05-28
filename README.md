@@ -54,3 +54,8 @@
 - Телеграмм: @dmitry_smor
 ***
 
+## Создано при помощи
+
+<div align="center">
+  <img src="" width=250/>
+</div>
