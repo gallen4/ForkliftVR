@@ -10,6 +10,13 @@
 - [Английский](READMEENGLISH.md)
 ***
 
+***
+<div align="center">
+<b> Цель проекта
+</div>
+***
+
+
 
 
 
