@@ -1,10 +1,8 @@
 <p align="center"><img src="forkliftinterface.png" width="230" alt="Logo Project"></p>
 
 <div align="center">
-<b>The open-source, personal AI for your digital brain</b>
+<b>Симулятор для тренировки операторов погрузчиков в Виртуальной Реальности.</b>
 </div>
-
-# Симулятор для тренировки операторов погрузчиков в Виртуальной Реальности.
 
 # Другие языки
 - [Русский](README.md)
