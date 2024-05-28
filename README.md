@@ -54,8 +54,10 @@
 - Телеграмм: @dmitry_smor
 ***
 
+***
 ## Создано при помощи
 
 <div align="center">
   <img src="steamvrLogo.png" width=250/>
 </div>
+***
