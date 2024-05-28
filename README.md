@@ -57,5 +57,5 @@
 ## Создано при помощи
 
 <div align="center">
-  <img src="" width=250/>
+  <img src="steamvrLogo.png" width=250/>
 </div>
