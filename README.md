@@ -45,9 +45,11 @@
 ***
 
 # Демонстрационное видео работы
+<div align="center">
 <a href="https://www.youtube.com/watch?v=nDv5xbuym8U">
   <img src="https://i3.ytimg.com/vi/nDv5xbuym8U/maxresdefault.jpg" width="600" height="300" width="600">
 </a>
+</div>
 
 ***
 
