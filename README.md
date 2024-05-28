@@ -14,15 +14,23 @@
 
 </div>
 
-***
+
 <div align="center">
-<b> Цель проекта\n
-Разработать проект
+
+***
+<p>
+  O’er all the hilltops<br />
+  Is quiet now,<br />
+  In all the treetops<br />
+  Hearest thou<br />
+  Hardly a breath;<br />
+  The birds are asleep in the trees:<br />
+  Wait, soon like these<br />
+  Thou too shalt rest.
+</p>
+***
+
 </div>
-
-
-
-
 
 
 <div align="left">
