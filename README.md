@@ -73,6 +73,7 @@
 
 <div align="center">
   <img src="steamvrLogo.png" width=250/>
+  <img src="unityLogo.png" width=250/>
 </div>
 
 ***
