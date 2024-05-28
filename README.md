@@ -19,7 +19,7 @@
 
 ***
 <p>
-  O’er all the hilltops<br />
+  Цель<br />
   Is quiet now,<br />
   In all the treetops<br />
   Hearest thou<br />
@@ -28,7 +28,6 @@
   Wait, soon like these<br />
   Thou too shalt rest.
 </p>
-***
 
 </div>
 
