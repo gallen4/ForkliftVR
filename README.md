@@ -45,9 +45,9 @@
 ***
 
 # Демонстрационное видео работы
-<div align="center">
-  [![Watch the video](https://img.youtube.com/vi/nDv5xbuym8U/maxresdefault.jpg)](https://youtu.be/nDv5xbuym8U)
-</div>
+<a href="https://www.youtube.com/watch?v=nDv5xbuym8U">
+  <img src="images/cat.jpg" width="600" height="200" width="600">
+</a>
 
 ***
 
