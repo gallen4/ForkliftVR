@@ -26,6 +26,18 @@
 
 </div>
 
+<div align="center">
+
+***
+<p>
+  
+  Проект работает только на шлеме: <b>Oculus Quest 2</b>
+
+</p>
+
+</div>
+
+
 
 <div align="left">
 
