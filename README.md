@@ -8,8 +8,8 @@
   
 ***
 # Другие языки
-- [Русский](README.md)
-- [Английский](READMEENGLISH.md)
+[Русский](README.md)
+[Английский](READMEENGLISH.md)
 ***
 
 </div>
