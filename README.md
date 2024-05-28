@@ -45,7 +45,9 @@
 ***
 
 # Демонстрационное видео работы
-<video src=https://www.youtube.com/watch?v=nDv5xbuym8U width=180/>
+<div align="center">
+  [![Watch the video](https://img.youtube.com/vi/nDv5xbuym8U/maxresdefault.jpg)](https://youtu.be/nDv5xbuym8U)
+</div>
 
 ***
 
