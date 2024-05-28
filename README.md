@@ -72,7 +72,7 @@
 ## Создано при помощи
 
 <div align="center">
-  <img src="steamvrLogo.png" width=250/> <br />
+  <img src="steamvrLogo.png" width=250/> <br 100/>
   <img src="unityLogo.png" width=250/>
 </div>
 
